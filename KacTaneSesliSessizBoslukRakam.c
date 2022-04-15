@@ -14,7 +14,7 @@ int main(){
 		if(str1[n] <= 'z' && str1[n] >= 'a'){
 			harf += 1;
 			
-			if(str1[n] == 'a' || str1[n] == 'e' || str1[n] == 'i' || str1[n] == 'ü' || str1[n] == 'ö' ||str1[n] == 'u'|| str1[n] == 'ı' || str1[n] == 'o'){
+			if(str1[n] == 'a' || str1[n] == 'e' || str1[n] == 'i' || str1[n] == 'Ã¼' || str1[n] == 'Ã¶' ||str1[n] == 'u'|| str1[n] == 'Ã½' || str1[n] == 'o'){
 				sesli += 1;
 			}
 			else{
