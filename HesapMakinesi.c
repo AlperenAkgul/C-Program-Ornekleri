@@ -34,7 +34,7 @@ int main(){
 					printf("Yanlis Giris Yaptiniz.");
 			}		
 	}
-	/* Çýkarma */
+	/* Ã‡Ä±karma */
 	else if(islemTuru == '-'){
 		printf("1.Sayi: ");
 		scanf("%f", &sayi1);
@@ -57,7 +57,7 @@ int main(){
 			printf("Yanlis Giris Yaptiniz.");
 		}		
 	}
-	/* Çarpma */
+	/* Ã‡arpma */
 	else if(islemTuru == '*'){
 		printf("1.Sayi: ");
 		scanf("%f", &sayi1);
@@ -80,7 +80,7 @@ int main(){
 			printf("Yanlis Giris Yaptiniz.");
 		}	
 	}
-	/* Bölme */
+	/* BÃ¶lme */
 	else if(islemTuru == '/'){
 		printf("1.Sayi: ");
 		scanf("%f", &sayi1);
@@ -103,11 +103,11 @@ int main(){
 			printf("Yanlis Giris Yaptiniz.");
 		}	
 	}
-	/* Çýkýþ */
+	/* Ã‡Ä±kÄ±ÅŸ */
 	else if(islemTuru == 'q'){
 		return 0;
 	}
-	/* Yanlýþ Giriþ */
+	/* YanlÄ±ÅŸ GiriÅŸ */
 	else
 	{
 		printf("Yanlis Giris Yaptiniz.");	
